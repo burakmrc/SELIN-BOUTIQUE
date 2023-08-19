@@ -130,12 +130,12 @@
   width: 39px;
   height: 776.5px;
 }
-.trends,
+/* .trends,
 .trends-child {
   position: absolute;
   width: 347px;
   height: 533px;
-  transform: rotate(-90deg);
+  transform: rotate(90deg);
   transform-origin: 0 0;
 }
 .trends-child {
@@ -147,6 +147,24 @@
 .trends {
   top: 1017px;
   left: 1195px;
+} */
+/* .trends {
+  top: 1017px;
+  left: 1195px;
+} */
+.trends,
+.trends-child{
+  position: absolute;
+  width: 100%;
+  height: 533px;
+  /* transform: rotate(90deg); */
+  transform-origin: 0 0;
+}
+.trends-child {
+  top: 0;
+  left: 0;
+  background-color: rgba(60, 184, 124, 0.10);
+  backdrop-filter: blur(45.66px);
 }
 .we-all-need {
   position: absolute;
@@ -190,8 +208,8 @@
 }
 .arrow-right-icon {
   right: 100%;
-  left: -100%;
-  max-width: 100%;
+  left: 100%;
+  max-width: 50%;
   overflow: hidden;
   max-height: 100%;
 }
@@ -277,7 +295,6 @@
 .trends1 {
   position: absolute;
   top: 0;
-  left: 0;
 }
 .more {
   text-transform: uppercase;
@@ -291,14 +308,14 @@
   width: 100%;
   right: 0;
   bottom: 0;
-  max-width: 100%;
+  max-width: 50%;
   overflow: hidden;
   max-height: 100%;
 }
 .arrow-right1,
 .more-parent {
   position: absolute;
-  height: 25.72px;
+  height: 25px;
 }
 .arrow-right1 {
   cursor: pointer;
@@ -343,9 +360,8 @@
   width: 437px;
   height: 303.72px;
 }
-.date-child,
-.date-inner,
-.date-item {
+.date-child
+ {
   position: absolute;
   top: 118px;
   left: -18px;
@@ -354,35 +370,56 @@
   width: 2px;
   height: 199px;
 }
-.date-inner,
+
 .date-item {
+  position: absolute;
   top: 335px;
+  left: -18px;
+  border-right: 2px solid #000;
+  box-sizing: border-box;
+  width: 2px;
   height: 25px;
 }
 .date-inner {
+  position: absolute;
   top: 379px;
+  left: -18px;
+  border-right: 2px solid #000;
+  box-sizing: border-box;
+  width: 2px;
   height: 13px;
 }
-.date,
-.jun-2022 {
+.date
+{
   position: absolute;
-  transform-origin: 0 0;
+  width: 100%;
+height: 391px;
+transform: rotate(0deg);
+/* transform-origin: 0 0; */
+text-align: center;
+font-size: 18px;
+color: #000;
+}
+.date,
+.date-inner,
+.jun-2022{
+  position: absolute;
 }
 .jun-2022 {
-  top: 0;
-  left: 0;
+  top: 88px;
+  left: -30px;
   text-transform: uppercase;
   display: inline-block;
   width: 89px;
-  transform: rotate(90deg);
+  transform: rotate(270deg);
+  transform-origin: 0 0;
 }
 .date {
   top: 240px;
   left: 1599px;
-  width: 24px;
+  /* width: 24px; */
   height: 391px;
-  transform: rotate(180deg);
-  text-align: center;
+  /* text-align: center; */
 }
 .arrow-child,
 .links-icon {
@@ -395,21 +432,22 @@
 .arrow-child {
   top: 0;
   left: 0;
+  border: 0;
   background-color: rgba(5, 85, 46, 0.15);
   backdrop-filter: blur(14.2px);
   width: 94.66px;
   height: 53.93px;
-  transform: rotate(-180deg);
+  /* transform: rotate(-180deg); */
   transform-origin: 0 0;
 }
 .vuesaxoutlinearrow-right-icon {
   position: absolute;
   height: 100%;
-  width: 100%;
-  top: -100%;
+  /* width: 100%; */
+  top: 0;
   right: 100%;
   bottom: 100%;
-  left: -100%;
+  left: 50%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
