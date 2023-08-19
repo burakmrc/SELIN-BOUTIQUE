@@ -510,3 +510,83 @@ color: #000;
   color: var(--color-black);
   font-family: var(--font-archivo-narrow);
 }
+.vector-icon {
+  height: 78.13%;
+  width: 78.13%;
+  top: 10.94%;
+  right: 10.94%;
+  bottom: 10.94%;
+  left: 10.94%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.phinstagram-logo,
+.vector-icon,
+.vector-icon1 {
+  position: absolute;
+  overflow: hidden;
+}
+.phinstagram-logo {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 0;
+  left: 3.5rem;
+  width: 1.63rem;
+  height: 1.63rem;
+}
+.vector-icon1 {
+  height: 83.33%;
+  width: 82.92%;
+  top: 8.33%;
+  right: 8.54%;
+  bottom: 8.33%;
+  left: 8.54%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.icbaseline-whatsapp {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 7rem;
+  width: 1.63rem;
+  height: 1.63rem;
+  overflow: hidden;
+}
+.vector-icon2 {
+  position: absolute;
+  height: 84.4%;
+  width: 71.88%;
+  top: 7.79%;
+  right: 14.06%;
+  bottom: 7.81%;
+  left: 14.06%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.links,
+.phpinterest-logo-bold {
+  position: absolute;
+  height: 1.63rem;
+}
+.phpinterest-logo-bold {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  width: 1.63rem;
+  overflow: hidden;
+}
+.links {
+  top: 64.31rem;
+  left: 11.56rem;
+  width: 8.63rem;
+}
