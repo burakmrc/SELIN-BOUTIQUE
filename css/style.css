@@ -1,0 +1,10 @@
+:root {
+    --bg-color: #FFFFFF;
+    --font-type: font-family: 'Archivo Narrow', sans-serif;
+    --header-font-type: font-family: 'B612', sans-serif;
+    --kenarlik: 1px solid gray;
+    
+  }
+  * {
+    box-sizing: border-box;
+  }
