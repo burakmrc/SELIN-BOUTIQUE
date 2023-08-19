@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-b612: B612;
+    --font-archivo-narrow: "Archivo Narrow";
+  
+    /* font sizes */
+    --font-size-lg: 18px;
+  
+    /* Colors */
+    --color-black: #000;
+    --color-gray: rgba(0, 0, 0, 0.6);
+    --color-mediumseagreen-100: #3cb87c;
+  }
+  
